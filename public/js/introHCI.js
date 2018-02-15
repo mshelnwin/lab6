@@ -30,7 +30,7 @@ function addProjectDetails(e) {
 	console.log("User clicked on project " + idNumber);
 
 	//Call AJAX endpoint
-	$.get("https://lab6-mnn.herokuapp.com/project/" + idNumber, callBackFn);
+	$.get("/project/" + idNumber, callBackFn);
 
 }
 
